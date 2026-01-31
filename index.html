@@ -1,38 +1,13 @@
-<!doctype html>
-<html ⚡ lang="id">
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta charset="utf-8">
-
+  <meta charset="UTF-8">
   <title>BOSMAHONG | Platform Game Digital Hiburan Modern</title>
   <meta name="description" content="BOSMAHONG adalah brand digital modern dengan layanan cepat, aman, dan tampilan eksklusif untuk pengguna Indonesia.">
-
-  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-
-
-  <meta name="google-site-verification" content="ALj6Z41iU5raLiMaatVbQvC6-BvauyLNDChH5OlKzyc">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="canonical" href="https://bosmahongcrypto.github.io/login/">
 
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
-
-  <style amp-boilerplate>
-    body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
-    -moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
-    -ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;
-    animation:-amp-start 8s steps(1,end) 0s 1 normal both}
-    @-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
-    @-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
-    @-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
-    @keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
-  </style>
-
-  <noscript>
-    <style amp-boilerplate>
-      body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
-    </style>
-  </noscript>
-
-  <style amp-custom>
+  <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -41,11 +16,18 @@
     }
 
     .card {
-      margin: 20px;
+      margin: 20px auto;
       padding: 12px;
       border-radius: 18px;
       background: rgba(255,255,255,0.08);
       box-shadow: 0 0 20px rgba(255,215,0,0.35);
+      max-width: 650px;
+      text-align: center;
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 18px;
     }
 
     .cta {
@@ -53,6 +35,7 @@
       justify-content: center;
       gap: 14px;
       margin: 24px 0;
+      flex-wrap: wrap;
     }
 
     .btn {
@@ -64,6 +47,7 @@
       background: linear-gradient(45deg,#ffcc00,#ff6600);
       box-shadow: 0 0 16px rgba(255,204,0,0.8);
       animation: glow 2s ease-in-out infinite alternate;
+      text-align: center;
     }
 
     @keyframes glow {
@@ -74,25 +58,67 @@
     article {
       padding: 22px;
       line-height: 1.75;
+      max-width: 800px;
+      margin: 0 auto 40px auto;
     }
 
     h1, h2 {
       color: #ffd700;
       text-shadow: 0 0 6px rgba(255,215,0,0.5);
     }
+
+    /* Ulasan pengguna */
+    .reviews {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 18px;
+    }
+
+    .review {
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255,215,0,0.3);
+    }
+
+    .review:last-child {
+      border-bottom: none;
+    }
+
+    .review h3 {
+      margin: 0 0 6px 0;
+      color: #ffdd55;
+    }
+
+    .review p {
+      margin: 0;
+      color: #eee;
+    }
+
+    /* SEO Article */
+    .seo-article {
+      max-width: 800px;
+      margin: 40px auto;
+      background: rgba(255,255,255,0.04);
+      padding: 20px;
+      border-radius: 16px;
+    }
+
+    .seo-article h2 {
+      color: #ffd700;
+    }
+
+    .seo-article p {
+      margin-bottom: 12px;
+      color: #ddd;
+    }
   </style>
 </head>
-
 <body>
 
   <div class="card">
-    <amp-img
-      src="https://i.postimg.cc/d0Gy21Jw/KILLUA-X-BOSMAHONG.png"
-      width="600"
-      height="600"
-      layout="responsive"
-      alt="BOSMAHONG Banner">
-    </amp-img>
+    <img src="https://i.postimg.cc/d0Gy21Jw/KILLUA-X-BOSMAHONG.png" alt="BOSMAHONG Banner">
   </div>
 
   <div class="cta">
@@ -102,7 +128,6 @@
 
   <article>
     <h1>BOSMAHONG – Brand Digital Modern & Inovatif</h1>
-
     <p>
       BOSMAHONG adalah brand digital yang menghadirkan pengalaman online modern
       dengan fokus pada kecepatan akses, desain premium, dan sistem yang ramah pengguna.
@@ -120,6 +145,42 @@
       untuk menjaga stabilitas dan keamanan data pengguna.
     </p>
   </article>
+
+  <!-- Ulasan Pengguna -->
+  <section class="reviews">
+    <h2>Ulasan Pengguna</h2>
+
+    <div class="review">
+      <h3>Andi R.</h3>
+      <p>"Sangat puas dengan kecepatan akses dan tampilan yang keren. BOSMAHONG bikin pengalaman game makin menyenangkan!"</p>
+    </div>
+
+    <div class="review">
+      <h3>Siti L.</h3>
+      <p>"Platform aman dan mudah digunakan. Support cepat dan selalu responsif. Recommended banget!"</p>
+    </div>
+
+    <div class="review">
+      <h3>Rizky P.</h3>
+      <p>"Desainnya modern dan fitur lengkap. Saya merasa nyaman bermain di BOSMAHONG setiap hari."</p>
+    </div>
+  </section>
+
+  <!-- Artikel SEO -->
+  <section class="seo-article">
+    <h2>BOSMAHONG: Platform Game Digital Terpercaya di Indonesia</h2>
+    <p>
+      BOSMAHONG hadir sebagai solusi hiburan digital modern yang aman dan nyaman.
+      Dengan teknologi canggih dan interface ramah pengguna, pemain bisa menikmati berbagai permainan dengan pengalaman premium.
+    </p>
+    <p>
+      Platform ini mengutamakan kecepatan akses, keamanan data, serta tampilan eksklusif yang menarik perhatian.
+      Cocok untuk semua kalangan yang ingin bermain game digital tanpa ribet.
+    </p>
+    <p>
+      Bergabunglah sekarang dan rasakan keunggulan BOSMAHONG, platform yang menggabungkan teknologi modern dengan hiburan berkualitas.
+    </p>
+  </section>
 
 </body>
 </html>
